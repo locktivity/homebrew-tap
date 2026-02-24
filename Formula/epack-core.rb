@@ -2,19 +2,19 @@ class EpackCore < Formula
   desc "CLI for creating and verifying evidence packs (core: no components)"
   homepage "https://github.com/locktivity/epack"
   license "Apache-2.0"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-core-darwin-arm64"
-      sha256 "724b8c56ba254d7a943f509942f6bb6cefbc41d0a0092a49cde3c043a305d8d5"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.1/epack-core-darwin-arm64"
+      sha256 "b9468d34f69b51cff7775201ef5b7593ea65aa199f616ae25c4833892e8a3155"
       def install
         bin.install "epack-core-darwin-arm64" => "epack-core"
       end
     end
     on_intel do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-core-darwin-amd64"
-      sha256 "e6f30fb91126564885cf0661a8345421f621602f1de2ac48c74e836e00ceaaae"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.1/epack-core-darwin-amd64"
+      sha256 "39993cee286a53328654990c6ddd3c41c005b3b50074f84b45b59ece847560bb"
       def install
         bin.install "epack-core-darwin-amd64" => "epack-core"
       end
@@ -23,15 +23,15 @@ class EpackCore < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-core-linux-arm64"
-      sha256 "b1b7e77fa0284ef9f29d26170b2e6dc8b12bf79334d995b3461ece1ba1637198"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.1/epack-core-linux-arm64"
+      sha256 "64d50d01ded4c74df026d00b1de5ea0e9454b15e968d56f1ce1fafae9fe2176f"
       def install
         bin.install "epack-core-linux-arm64" => "epack-core"
       end
     end
     on_intel do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-core-linux-amd64"
-      sha256 "f38b0bc489c15713b469fc728293d206eb26ebe2b402318df55506fc00e3e3f5"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.1/epack-core-linux-amd64"
+      sha256 "203721a2dc9e70217fd0506bd85b662fa73598238413372dc92b093c73a0168e"
       def install
         bin.install "epack-core-linux-amd64" => "epack-core"
       end
