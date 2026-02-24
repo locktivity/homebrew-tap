@@ -2,19 +2,19 @@ class Epack < Formula
   desc "CLI for creating and verifying evidence packs (full: components)"
   homepage "https://github.com/locktivity/epack"
   license "Apache-2.0"
-  version "0.1.6"
+  version "0.1.7"
 
   on_macos do
     on_arm do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.6/epack-darwin-arm64"
-      sha256 "28001e67c14bdcfc2f145c7466d2cc3002f44bebb94ed77ad948f6d5d672e379"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.7/epack-darwin-arm64"
+      sha256 "3c221dc6980c7cdb8316880a3a66da0f7c0aa157d97ef05409c10f57e85e4411"
       def install
         bin.install "epack-darwin-arm64" => "epack"
       end
     end
     on_intel do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.6/epack-darwin-amd64"
-      sha256 "6d46dc3fbcb0cc71e8f824eb080a98d45ff18a8607842b99411b04959a4d083b"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.7/epack-darwin-amd64"
+      sha256 "7bf2642dd9adb062b425435d49352cdd74c77a665f8901fd2492ef44537e9ccc"
       def install
         bin.install "epack-darwin-amd64" => "epack"
       end
@@ -23,15 +23,15 @@ class Epack < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.6/epack-linux-arm64"
-      sha256 "369861cb4e25c45feca5e9e11a8f7c0fd84f773781d85ce65e84216281de9318"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.7/epack-linux-arm64"
+      sha256 "955cff7188757709be97fc02d7a12ec48e97338845d22b1770aae5b902fb3e3a"
       def install
         bin.install "epack-linux-arm64" => "epack"
       end
     end
     on_intel do
-      url "https://github.com/locktivity/epack/releases/download/v0.1.6/epack-linux-amd64"
-      sha256 "0040d5df2dab5907785fa3a5a26d800545fffce8ad27026a826a8d3d6eb7a777"
+      url "https://github.com/locktivity/epack/releases/download/v0.1.7/epack-linux-amd64"
+      sha256 "9a28ed8340e21131eba00bf1efc2a7199a385db76608119ac40223d2fe91da97"
       def install
         bin.install "epack-linux-amd64" => "epack"
       end
