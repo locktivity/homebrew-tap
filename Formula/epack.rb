@@ -7,14 +7,14 @@ class Epack < Formula
   on_macos do
     on_arm do
       url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-darwin-arm64"
-      sha256 "f5e9572fdbb95bc945505b5e2799ae9db29a3f4b1742b3d21104f0fc596f41ce"
+      sha256 "11ef15a90d58906aa02768424829921e2f48fa2d5e778fd9a75507735141de18"
       def install
         bin.install "epack-darwin-arm64" => "epack"
       end
     end
     on_intel do
       url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-darwin-amd64"
-      sha256 "b47763f716af46914c08bf6a18d1765587b4c8db9dda3f03be54b16600807926"
+      sha256 "005b3aa46683419a1620ca109799421024d29a3bf5737c2847690c25300282a7"
       def install
         bin.install "epack-darwin-amd64" => "epack"
       end
@@ -24,14 +24,14 @@ class Epack < Formula
   on_linux do
     on_arm do
       url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-linux-arm64"
-      sha256 "f07c016bda3a3b445acdf66dfe36417bcdcfb485936b404207c193d4700301a1"
+      sha256 "401d3976845359bcfd05f97542f8a588499039d34f507a113dc31ce66c8c821c"
       def install
         bin.install "epack-linux-arm64" => "epack"
       end
     end
     on_intel do
       url "https://github.com/locktivity/epack/releases/download/v0.1.0/epack-linux-amd64"
-      sha256 "19479e42c3dc7d727a4f91f3cbd9fac1d36f5c66c100984df9e73749ad6dd7dd"
+      sha256 "01b9a2fa0fce3711a01ab57523ca858078ccbeb7811a61885ee244760ad06756"
       def install
         bin.install "epack-linux-amd64" => "epack"
       end
